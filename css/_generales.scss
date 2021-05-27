@@ -1,0 +1,43 @@
+/*
+    Estilos generales
+*/
+
+// ----------- Variables generales de colores ---------------------
+
+// --- Fondos de secciones ---
+$cfondo_general:#fff;
+$cfondo_trabajos:#f2f2f2;
+$cfondo_footer:#2c0212;
+
+// --- Colores de texto -----
+$cblanco_general:#fff;
+$cacerca-de-titulo:#6b0641;
+$cacerca-de-texto:#5a5a5a;
+$cacerca-de-resaltado:#3895ea;
+
+$ctrabajos_titulo:#303268;
+$ctrabajo_nombre:#3895ea;
+$ctrabajo_categoria:#636363;
+
+$ccontacto-titulo:#3895ea;
+$ccontacto-texto:#a4a4a4;
+$ccontacto-boton-fondo:#3895ea;
+$ccontacto-boton-fondo-hover:#387b;;
+$ccontacto-control-borde_focus:#3895ea;
+$ccontacto-control-borde_nofocus:#cecece;
+
+// Estilos generales
+*{
+    box-sizing: border-box;
+}
+body{
+    background: $cfondo_general;
+    font-family: 'Open Sans Ligth',sans-serif;
+    font-size: 16px;
+}
+.contenedor{
+    width:90%;
+    max-width: 1000px;
+    margin:auto;
+    overflow:hidden;
+}

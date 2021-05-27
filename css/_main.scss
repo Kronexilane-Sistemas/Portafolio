@@ -1,0 +1,83 @@
+// ************* MAIN ******************
+.main{
+    // Sección acerca-de
+    .acerca-de
+    { 
+        text-align: center;        
+        .contenedor{
+            overflow:visible;
+            .foto{
+                margin-top: -60px;
+                img{
+                    vertical-align: top;
+                    border-radius:100%;
+                    border:5px solid rgba(255,255,255,0.2);
+                }
+            }
+            .titulo{
+                font-size: 34px;
+                margin-bottom: 40px;
+                font-weight: 300;
+                line-height: 34px;
+                color:$cacerca-de-titulo;
+                text-align: center;  
+            }
+            .texto{
+                color:$cacerca-de-texto;
+                font-weight: 600;
+                font-size: 1em;
+                line-height: 30px;
+                width: 80%;
+                margin:40px auto 60px auto;
+                .bold{                    
+                    color:$cacerca-de-resaltado;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    // Sección trabajos
+    .trabajos{
+        background:$cfondo_trabajos;
+        padding:60px 0;
+        .contenedor{
+            overflow: hidden;
+            .titulo{
+                font-size: 34px;
+                margin-bottom: 40px;
+                font-weight: 300;
+                line-height: 34px;
+                color:$ctrabajos_titulo;
+                text-align: center;
+            }   
+            .contenedor-trabajos{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .trabajo{
+                    width:23%;
+                    margin-bottom: 40px;
+                    .thumb img{
+                        width:100%;
+                        vertical-align: top;
+                        border-radius: 3px;
+                    }
+                    .descripcion{
+                        text-align: center;
+                    }
+                    .nombre{
+                        font-weight: 700; 
+                        color:$ctrabajo_nombre;
+                        margin-bottom: 10px;
+                    }
+                    .categoria{
+                        font-size: 14px;
+                        color:$ctrabajo_categoria;
+                    }
+                }
+            }
+        }
+    }
+
+}
